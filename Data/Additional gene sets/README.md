@@ -1,1 +1,5 @@
-Here is the additional gene data that used for validation for the new genes 
+This folder contains all the external driver genes data sources used for validaation:
+ - The CancerMine driver list
+ -  Ongene driver list
+ -  OncoKB driver list
+ -  The cancer type-specific drivers for each cancer from IntOGEN database
