@@ -6,6 +6,7 @@ You will find:
 
 - Negative labels
 
-- Feature data (in the file named biological_features)
+- Feature data (multiomics_features.xlsx file)
+- Comperhensive features (All_features.csv)
 
-- The Incidence matrix .npz file
+- The Incidence matrix (.npz format)
