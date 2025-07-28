@@ -5,8 +5,8 @@ Our model takes multi-omics features—including somatic mutations, gene express
 
 # Datasets
 
-# Requirements 
- - python>=3.7
+# Dependencies 
+ - python >=3.7
  - Numpy==2.0.2
  - Pandas==2.2.2
  - sklearn==1.6.1
