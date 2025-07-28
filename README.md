@@ -6,6 +6,9 @@ Our model takes multi-omics features—including somatic mutations, gene express
 # Datasets
 
 # Requirements 
+ - python >=3.7 
+ - pytorch >=1.6.0 
+ - pytorch geometric >=1.7.0
 
 # Training the model
 
