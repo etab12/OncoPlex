@@ -1,4 +1,4 @@
-This folder contains all the external driver genes data sources used for validaation:
+This folder contains all the external driver genes data sources used for validation:
  - The CancerMine driver list
  -  Ongene driver list
  -  OncoKB driver list
