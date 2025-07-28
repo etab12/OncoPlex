@@ -1,4 +1,4 @@
-This folder contains:
+# This folder contains:
 
 - A PDF file with the supplementary information
 
