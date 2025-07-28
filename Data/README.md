@@ -1,4 +1,4 @@
-This folder contains all the data required to run OncoPlex:
+# This folder contains all the data required to run OncoPlex:
 
 You will find:
 
