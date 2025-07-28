@@ -8,4 +8,4 @@ You will find:
 
 - Feature data (in the file named biological_features)
 
-- The graph file (.pkl format)
+- The Incidence matrix .npz file
