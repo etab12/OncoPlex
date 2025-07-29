@@ -17,7 +17,12 @@ All  the data needed to run the model is in the Data folder here [here](https://
 
 # Training the model
 To run OncoPlex, we prepared the notebooks needed [here](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src).
+
   1- Run the Data_Preparing notebook using the incidence matrix, features, and labels in the data folder. 
+  
   2- After constructing a graph, run OncoPlex_pan_cancer notebook for pancancer training.
+  
   3- For cancer_specific training, run OncoPlex_cancer_specific notebook. 
+
+  4- For functional validation, use the enrichment_analysis R code. 
 
