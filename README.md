@@ -3,8 +3,8 @@ OncoPlex is a hypergraph-based method for cancer driver gene prediction. It lear
 
 Our model takes multi-omics features—including somatic mutations, gene expression, DNA methylation, histone modifications, and other functional data—as input, and produces a score for each gene indicating its likelihood of being a cancer driver. It also predicts candidate driver genes for each individual's cancer type, providing a prioritized list for further biological validation.
 
-# Datasets
-All  the data needed to run the model is in the Data folder [here](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/Data).
+# Datasets Overview 
+All the data required to run the model is in the Data folder [here](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/Data).
 All data are publicly available:
  - To download the MAF somatic mutation, gene expression FPKM normal and tumor files, and Illumina DNA methylation 450K files from The Cancer Genome Atlas (TCGA) through their GDC portal:
    [here](https://portal.gdc.cancer.gov/)
@@ -20,13 +20,15 @@ All data are publicly available:
    
 
 # Training the model
-To run OncoPlex, we prepared the notebooks needed [here](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src).
+To run OncoPlex, we prepared all the notebooks needed [here](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src).
 
-  1- Run the Data_Preparing notebook using the incidence matrix, features, and labels in the data folder. 
-  
-  2- After constructing a graph, run OncoPlex_pan_cancer notebook for pancancer training.
-  
-  3- For cancer_specific training, run OncoPlex_cancer_specific notebook. 
+  1- To prepare the data, run the Data_Preparing notebook using the incidence matrix, features, and labels provided in the data folder.
 
-  4- For functional validation, use the enrichment_analysis R code. 
+  2- Once the graph is constructed, run the OncoPlex_pan_cancer notebook for pan-cancer training.
+
+  3- For cancer-specific training, run the OncoPlex_cancer_specific notebook.
+
+  4- To perform functional validation, use the enrichment_analysis R script with the new gene list located in the data folder.
+
+You can follow these steps with your own features, network data (nodes and hyperedge list), and labels.
 
