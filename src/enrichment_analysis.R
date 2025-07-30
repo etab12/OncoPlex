@@ -87,7 +87,7 @@ save_plot <- function(enrich_res, filename, save_path = ".") {
     plot = p,
     width = 8,
     height = 6,
-    dpi = 600,
+    dpi = 300,
     
   )
   
