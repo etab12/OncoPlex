@@ -8,3 +8,4 @@ You will find:
 
 - Feature data (multiomics_features.xlsx file)
 - The Incidence matrix (.npz format)
+- For comprehensive features, you can refer to DORGE paper.
