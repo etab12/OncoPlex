@@ -8,7 +8,7 @@ All the data required to run the model is in the Data folder [here](https://gith
 
 All datasets are publicly available:
  - To download the MAF somatic mutation, gene expression FPKM normal and tumor files, and Illumina DNA methylation 450K files from The Cancer Genome Atlas (TCGA) through their
-   [GDC portal(https://portal.gdc.cancer.gov/)
+   [GDC portal](https://portal.gdc.cancer.gov/)
  - The comprehensive features from [DORGE paper](https://www.science.org/doi/10.1126/sciadv.aba6784)
  - Specefic cancer driver gene: [COSMIC](https://cancer.sanger.ac.uk/cosmic/login), and [DigSEE](http://210.107.182.61/digseeOld/)
 
