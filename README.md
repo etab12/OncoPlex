@@ -18,7 +18,7 @@ All datasets are publicly available:
  - Pandas==2.2.2
  - sklearn==1.6.1
  - pytorch==2.6.0
- - pytorch geometric==2.6.1
+ 
    
 
 # Training the model
