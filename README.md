@@ -4,7 +4,7 @@ OncoPlex is a hypergraph-based method for cancer driver gene prediction. It lear
 Our model takes diverse type of features including mutstions, gene ecpression, methylation profiles, and other genomics and epigenetics as input, and produces a score for each gene indicating its likelihood of being a cancer driver. It also predicts candidate driver genes for each individual's cancer type, providing a potential gene list for further validation.
 
 # Datasets Overview 
-All the data required to run our model is in the [Data] folder (https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/Data). 
+All the data required to run our model is in the [Data](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/Data). 
 
 All datasets are publicly available:
  - To download the core features uncluding: MAF somatic mutation, gene expression FPKM normal and tumor files, and Illumina DNA methylation 450K files from The Cancer Genome Atlas (TCGA) through their
@@ -22,7 +22,7 @@ All datasets are publicly available:
    
 
 # Training The Model
-To run OncoPlex, we prepared all the notebooks needed in the [Notebooks] folder(https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src), following these step:
+To run OncoPlex, we prepared all the notebooks needed in the [Notebooks](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src), following these step:
 
 
   1- To prepare the data, run the Data_Preparing.ipynb notebook. 
