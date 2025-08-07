@@ -21,7 +21,7 @@ All datasets are publicly available:
  
    
 
-# Training the model
+# Training The Model
 To run OncoPlex, we prepared all the notebooks needed [here](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src).
 
   1- To prepare the data, run the Data_Preparing notebook using the incidence matrix, features, and labels provided in the data folder.
