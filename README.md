@@ -25,6 +25,7 @@ All datasets are publicly available:
 To run OncoPlex, we prepared all the notebooks needed in the [Notebooks](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src), following these step:
 
 
+
   1- To prepare the data, run the Data_Preparing.ipynb notebook. 
 
   2- Once the graph is constructed, run the OncoPlex_Pan_Cancer.ipynb notebook for pan-cancer training.
