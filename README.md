@@ -22,7 +22,7 @@ All datasets are publicly available:
    
 
 # Training The Model
-To run OncoPlex, we prepared all the notebooks needed in the [Notebooks](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src), following these step:
+To run OncoPlex, we prepared all the notebooks needed in the [Notebooks](https://github.com/etab12/OncoPlex/tree/029ef7a69ec6fc0483ff39d79ee88d74639eb0c5/src), following these steps:
 
 
 
@@ -32,8 +32,8 @@ To run OncoPlex, we prepared all the notebooks needed in the [Notebooks](https:/
 
   3- For cancer-specific training, you can independently run it through the OncoPlex_Cancer_Specific.ipynb notebook.
 
-  4- To perform functional validation, use the enrichment_analysis R script with the new gene list located in the NPGs folder.
+  4- To perform functional validation, use the enrichment_analysis R script with the new gene list located in the NPGs folder (we select only 0 genes in our analysis).
 
 * You can follow these steps using your own features, network data (nodes and hyperedges), and labels, by replacing the file paths in the provided notebooks. 
-* We provide a description in each folder that explain its component files. 
+* We provide a description in each folder that explains its component files. 
 
