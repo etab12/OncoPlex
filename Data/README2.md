@@ -2,7 +2,7 @@
 
 You will find:
 
-- Positive, and negative labels for both pancancer and cancer-specific for model trainig. IntOGEN_driver that we exclude it from the specific cancer validation experiment. Finally, the negative_nondriver is consistent for both settings. 
+- Positive, and negative labels. 
 
 - Feature data (core_features.tsv). 
 
