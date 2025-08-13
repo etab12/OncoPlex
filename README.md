@@ -32,7 +32,7 @@ To run OncoPlex, we prepared all the notebooks needed in the [Notebooks](https:/
 
   3- For cancer-specific training, you can independently run it through the OncoPlex_Cancer_Specific.ipynb notebook.
 
-  4- To perform functional validation, use the enrichment_analysis R script with the new gene list located in the NPGs folder (we select only 0 genes in our analysis).
+  4- To perform functional validation, use the enrichment_analysis R script with the new gene list located in the NPGs folder (we select only 30 genes in our analysis).
 
 * You can follow these steps using your own features, network data (nodes and hyperedges), and labels, by replacing the file paths in the provided notebooks. 
 * We provide a description in each folder that explains its component files. 
